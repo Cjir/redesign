@@ -1,0 +1,57 @@
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+h2, h2, h3, p {
+  font-family: 'Dosis', sans-serif;
+  color: rgb(80,61,58)
+}
+p {
+  font-size: 20px;
+}
+body {
+  background-color: rgb(254,251,210);
+}
+nav {
+  margin: 0 -20px;
+}
+nav ul {
+      background-color: rgb(108,124,72);
+      list-style-type: none; /* remove bullets */
+      margin: 20px 0;
+      padding: 10px;
+      text-align: center;
+			width: 100%;
+}
+
+nav li {
+      display: inline; /* change li from block level element to inline */
+      padding: 5px 5px 5px 5px;
+      font-family: 'Dosis', serif;
+      background-color: rgb(108,124,72);
+
+}
+nav a:link, nav a:visited {
+      color: black;
+  	  background-color: rgb(196,216,103);
+	  	border-radius: 2px; /*round the corners on the nav items*/
+  	  text-decoration: none; /*remove default underlines from links*/
+  	  padding: 6px 8px;
+  	  margin: 0;
+  	  font-size: 1em;
+}
+nav a:hover {
+  	background-color: rgb(217,222,141);
+    color: black;
+  	text-decoration: none;
+}
+nav a.current {
+  	background-color: rgb(217,222,141);
+		color: black;
+}
+article {
+  background-color: rgb(217,222,141);
+}
+aside {
+  background-color: rgb(217,222,141);
+}
