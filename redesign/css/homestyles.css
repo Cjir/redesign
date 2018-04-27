@@ -11,9 +11,16 @@ p {
 }
 body {
   background-color: rgb(254,251,210);
+  margin-top: 7px;
 }
+header {
+  padding-bottom: 7px;
+  padding-right: 20px;
+}
+
 nav {
-  margin: 0 -20px;
+  align-items: center;
+
 }
 nav ul {
       background-color: rgb(108,124,72);
@@ -29,7 +36,6 @@ nav li {
       padding: 5px 5px 5px 5px;
       font-family: 'Dosis', serif;
       background-color: rgb(108,124,72);
-
 }
 nav a:link, nav a:visited {
       color: black;
@@ -51,7 +57,13 @@ nav a.current {
 }
 article {
   background-color: rgb(217,222,141);
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
 }
 aside {
   background-color: rgb(217,222,141);
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
 }
