@@ -49,6 +49,12 @@ nav a:hover {
 nav a.current {
   	background-color: rgb(217,222,141);
 		color: black;
+    border-left: 5px solid rgb(108,124,72);
+    border-right: 5px solid rgb(108,124,72);
+    border-top: 10px solid rgb(108,124,72);
+    border-bottom: 10px solid rgb(108,124,72);
+    padding-bottom: 9px;
+    padding-top: 9px;
 }
 article {
   background-color: rgb(217,222,141);
@@ -77,7 +83,7 @@ aside {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   background-color: rgb(196,216,103);
   font-family: 'Dosis', serif;
 }
@@ -89,17 +95,18 @@ aside {
 }
 .icon {
   border-top: 10px solid rgb(108,124,72);
+  border-bottom: 5px solid rgb(108,124,72);
   border-right: 5px solid rgb(108,124,72);
-
+  margin-bottom: 2px;
 }
 .topnav a:hover {
   background-color: rgb(217,222,141);
   color: black;
 }
-.current {
+/* .current {
   background-color: rgb(217,222,141);
   color: rgb(0,0,0);
-}
+} */
 
 .topnav .icon {
   display: none;
