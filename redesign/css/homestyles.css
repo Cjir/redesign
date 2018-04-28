@@ -11,7 +11,7 @@ body {
 }
 header {
   padding-bottom: 7px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 /* nav {
@@ -52,9 +52,9 @@ nav a.current {
     border-left: 5px solid rgb(108,124,72);
     border-right: 5px solid rgb(108,124,72);
     border-top: 10px solid rgb(108,124,72);
-    border-bottom: 10px solid rgb(108,124,72);
-    padding-bottom: 9px;
-    padding-top: 9px;
+    border-bottom: 5px solid rgb(108,124,72);
+    padding-bottom: 13px;
+    padding-top: 15px;
 }
 article {
   background-color: rgb(217,222,141);
@@ -71,7 +71,6 @@ aside {
 .topnav {
   overflow: hidden;
   background-color: rgb(108,124,72);
-
 }
 .topnav a {
   border-radius: 1px; /*round the corners on the nav items*/
