@@ -131,6 +131,12 @@ aside {
     text-align: left;
   }
 }
+ul {
+  list-style: none;
+	width: 390px;
+	margin: 0 auto;
+	padding: 0;
+}
 
 .dance{
 font-family: 'Dancing Script', cursive;
