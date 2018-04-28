@@ -12,11 +12,9 @@
     <link rel="stylesheet" href="zurb/css/foundation.css">
     <link rel="stylesheet" href="zurb/css/app.css">
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
-
     <link href="css/homestyles.css" rel="stylesheet">
   </head>
   <body>
-
     <header>
     <section class="grid-x grid-margin-x">
       <div class="cell medium-4 small-4 large-5">
@@ -27,34 +25,15 @@
       </div>
     </section>
     </header>
-      <!-- ///ZURB RESPONSIVE NAVBAR/// -->
-        <!-- <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
-          <button class="menu-icon" type="button" data-toggle="main-nav"></button>
-          <div class="title-bar-title">Menu</div>
-        </div>
-
-        <nav class="top-bar" id="main-nav">
-          <div class="top-bar-left">
-            <ul class="dropdown verticle medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animated-height="true">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="menu.html">Menu</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="about.html" class="current">About</a></li>
-            </ul>
-          </div>
-        </nav> -->
         <nav class="topnav" id="myTopnav">
           <a href="index.html" class="button">Home</a>
           <a href="menu.html" class="button">Menu</a>
           <a href="gallery.html" class="button">Gallery</a>
           <a href="about.html" class="current button">About</a>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-
-
         <div style="padding-left:16px">
         </div>
         </nav>
-
         <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -65,25 +44,26 @@
             }
         }
         </script>
-
-
-<!-- ///ZURB RESPONSIVE NAVBAR/// -->
 <main class="grid-container">
         <section class="grid-x">
-          <article class="large-3 cell large-offset-2">
+          <aside class="large-3 cell large-offset">
             <h2>Hours</h2>
             <h3>Mon-Sat</h3>
-            <p>11:30 am - 3:00 pm<br>
-            4:30 pm - 8:30 pm</p>
-            <h3>Sun</h3>
-            <p>Closed</p>
+            <p>11:30am-3:00pm<br>
+              4:30pm-8:30pm</p>
+              <h3>Sun</h3>
+              <p>Closed</p>
+          </aside>
+          <article class="large-3 cell large-offset-1">
+            <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12631.3819829762!2d-122.0799644!3d37.6763381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc571e0fa5b7466a!2sSunflower+2!5e0!3m2!1sen!2sua!4v1504612925616" width="600" height="450" frameborder="0" style="border:0; width:100%;" allowfullscreen></iframe>
           </article>
-          <aside class="large-3 cell large-offset-2">
-            <h2>Location</h2>
-            <p>1213 A St Hayward CA 94541</p>
+          <aside class="large-3 cell large-offset-1">
             <h2>Phone Number</h2>
             <p>+1 510-537-0786<br>
-            We Offer Catering!</p>
+              We Offer Catering!</p>
+            <h2>Location</h2>
+            <p>1213 A St Hayward CA 94541</p><br>
+            <p>27 years in Castro Valley, now in Hayward also!</p>
           </aside>
         </section>
     </main>
