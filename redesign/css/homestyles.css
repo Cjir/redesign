@@ -50,7 +50,7 @@ nav a.current {
 		color: black;
     border-left: 5px solid rgb(108,124,72);
     border-right: 5px solid rgb(108,124,72);
-    border-top: 10px solid rgb(108,124,72);
+    border-top: 20px solid rgb(108,124,72);/*changing to 20 to center the buttons*/
     border-bottom: 5px solid rgb(108,124,72);
     padding-bottom: 13px;
     padding-top: 15px;
@@ -88,11 +88,11 @@ aside {
 .button {
   border-left: 5px solid rgb(108,124,72);
   border-right: 5px solid rgb(108,124,72);
-  border-top: 10px solid rgb(108,124,72);
+  border-top: 20px solid rgb(108,124,72);/*changing to 20 to center the buttons*/
   border-bottom: 0px solid rgb(108,124,72);
 }
 .icon {
-  border-top: 10px solid rgb(108,124,72);
+  border-top: 20px solid rgb(108,124,72); /*changing to 20 to center the buttons*/
   border-bottom: 5px solid rgb(108,124,72);
   border-right: 5px solid rgb(108,124,72);
   margin-bottom: 2px;
