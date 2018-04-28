@@ -27,7 +27,7 @@
     </section>
     </header>
       <!-- ///ZURB RESPONSIVE NAVBAR/// -->
-        <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+        <!-- <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
           <button class="menu-icon" type="button" data-toggle="main-nav"></button>
           <div class="title-bar-title">Menu</div>
         </div>
@@ -41,7 +41,30 @@
               <li><a href="about.html" class="current">About</a></li>
             </ul>
           </div>
-        </nav>
+        </nav> -->
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="button">Home</a>
+          <a href="menu.html" class="button">Menu</a>
+          <a href="gallery.html" class="button">Gallery</a>
+          <a href="about.html" class="button" class="current">About</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div style="padding-left:16px">
+        </div>
+
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        </script>
+
+
 <!-- ///ZURB RESPONSIVE NAVBAR/// -->
         <section class="grid-x">
           <article class="large-3 cell large-offset-2">
