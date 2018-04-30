@@ -30,7 +30,7 @@ if(n === "Sunday"){
       else if(hour >= 12 && hour <= 15){
          s = 0;
         }
-      else if(hour >= 17 && hour < 20){
+      else if(hour >= 17 && hour <= 20){
           s = 0;
         }
       else if(hour = 11 && min > 29 && min < 60 ){
