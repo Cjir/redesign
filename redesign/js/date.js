@@ -24,6 +24,7 @@ var n = day[d.getDay()];
 var min = d.getMinutes();
 
 // judge the status
+//var s = 1; another way to write these codes
 
 if (n === day[6]){
   var s = 1;
@@ -44,6 +45,10 @@ if (n === day[6]){
   else if(hours=20 && min>=30 && min<=59){
       var s = 0;
     }
+    else {         //delete this line if you want the other way to write it.
+      var s = 1;  //delete this line if you want the other way to write it.
+    }             //delete this line if you want the other way to write it.
+
 
 
 document.getElementById("today").innerHTML = "Hours" + ":" + "" + status[s];
