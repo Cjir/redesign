@@ -163,4 +163,9 @@ font-size: 60pt;
   font-family: 'Dosis ', sans-serif;
   font-size: 32;
 }
+.gallery {
+  margin-top: 20px;
+ padding: 5px 5px 5px 5px;
+ background-color: rgb(108,124,72);
+}
 </style>
