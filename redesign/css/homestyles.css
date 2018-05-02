@@ -157,5 +157,10 @@ ul {
 
 .dance{
 font-family: 'Dancing Script', cursive;
+font-size: 60pt;
+}
+.info {
+  font-family: 'Dosis ', sans-serif;
+  font-size: 32;
 }
 </style>
